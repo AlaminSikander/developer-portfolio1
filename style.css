@@ -13,10 +13,13 @@ h1{
     display: flex;
     background-image: url(./images/top-banner.png);
     background-repeat: no-repeat;
+    box-sizing: border-box;
+    margin-bottom: 150px;
 }
-.frist-1{
+.frist .frist-1 {
     width: 50%;
-    padding-left: 50px;
+    padding: 70px;
+    box-sizing: border-box;
 }
 .frist-1 img{
     width: 80%;
@@ -28,4 +31,15 @@ h1{
     background-image: linear-gradient(rgba(246, 90, 0, 0.911), rgba(255, 147, 5, 0.842));
     color: white;
     font-weight: 700;
+}
+.second{
+    display: flex;
+    box-sizing: border-box;
+    margin-bottom: 150px;
+}
+.second .frist-1{
+    padding-left: 70px;
+    background-image: url(./images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right, bottom;
 }
